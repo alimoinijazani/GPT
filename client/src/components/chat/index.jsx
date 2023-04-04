@@ -13,6 +13,7 @@ const Chat = () => {
     'testuser',
     '1234'
   );
+  console.log(chatProps);
   return (
     <div style={{ flexBasis: '100%' }}>
       <MultiChatSocket {...chatProps} />
